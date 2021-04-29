@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AMIGOS inc</title>
+    <meta name="description" content="Amigos inc, more than a brand. Malawi">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./amigos.css">
+</head>
+<style>
+  .card-content {
+    border: 1.5px solid #06F435;
+  }
+</style>
+<body>
+<section class="hero is-medium">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar is-fixed-top">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+              AMIGOS
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#events">
+              EVENTS
+            </a>
+            <a class="navbar-item" href="#fantasy">
+              FANTASY
+            </a>
+            <a class="navbar-item" href="#lifestyle">
+              LIFESTYLE
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container">Welcome to
+        <h1 class="title is-1">
+          AMIGOS inc.
+        </h1>
+        <!-- <h2 class="subtitle is-3">
+          One stop for all your software, hardware needs
+        </h2> -->
+    </div>
+
+  </div>
+<!-- 
+   Hero footer: will stick at the bottom 
+  <div class="hero-foot">
+     <p class="has-text-centered"> #cactus-crew 2021 </p>
+     <br>
+     <nav class="tabs">
+      <div class="container">
+        <ul>
+          <li class="is-active"><a>Overview</a></li>
+          <li><a>Modifiers</a></li>
+          <li><a>Grid</a></li>
+          <li><a>Elements</a></li>
+          <li><a>Components</a></li>
+          <li><a>Layout</a></li>
+        </ul>
+      </div>
+    </nav> 
+  </div> -->
+</section>
+  <section class="section" id="events">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2 has-text-centered">EVENTS</h3>
+      </div>
+      <br>
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+       <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="./eli.PNG" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+            <a href="https://www.facebook.com/amigosInc/posts/3484223855000813" target="_blank" alt="Road to the book of ELI">
+            Road to the book of ELI </a>
+        </div>
+      </div>        
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="fantasy">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2 has-text-centered">FANTASY</h3>
+      </div>
+      <br>
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+       <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="./fant.jpeg" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <a href="https://twitter.com/Amigos_inc/status/1298319312478969857"  target="_blank">
+          Amigos fantasy </a>
+        </div>
+      </div>        
+        </div>
+      </div>
+
+    </div>
+  </section>  <section class="section" id="lifestyle">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2 has-text-centered">LIFESTYLE</h3>
+      </div>
+      <br>
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+       <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="./ink.PNG" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <a href="https://www.instagram.com/cactusink_mw/" target="_blank">
+            Cactus ink </a>
+
+        </div>
+      </div>        
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Amigos inc 2021</strong> <br>
+         by <a href="https://maki365.tech">MAKI</a>. 
+      </p>
+      <div class="buttons has-addons is-centered">
+        <a class="button" href="https://www.instagram.com/amigos_inc/?hl=en" target="_blank">Instagram</a>
+        <a class="button" href="https://www.facebook.com/amigosInc" target="_blank">Facebook</a>
+        <a class="button" href="https://twitter.com/Amigos_inc" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </footer>
+</body>
+<script type="text/javascript">
+  (function() {
+      var burger = document.querySelector('.burger');
+      var menu = document.querySelector('#'+burger.dataset.target);
+      burger.addEventListener('click', function() {
+          burger.classList.toggle('is-active');
+          menu.classList.toggle('is-active');
+      });
+  })();
+  </script>
+</html>
